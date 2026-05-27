@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <title>My First Bootstrap Page</title>
+    <style>
+        body {
+            background-color: #2d2d2d;
+            padding: 20px;
+        }
+        .header {
+            background-color: #e8e8e8;
+            padding: 40px;
+            margin-bottom: 20px;
+            text-align: center;
+            border-radius: 4px;
+        }
+        .header h1 {
+            margin: 0;
+            font-size: 36px;
+            font-weight: 600;
+            color: #333;
+        }
+        .content-section {
+            background-color: #f5f5f5;
+            padding: 40px 20px;
+            margin-bottom: 20px;
+            border-radius: 4px;
+        }
+        .icon-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 40px;
+            flex-wrap: wrap;
+        }
+        .icon-box {
+            width: 100%;
+            min-height: 250px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+        .icon-box img {
+            max-width: 100%;
+            max-height: 250px;
+            object-fit: contain;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>My First Bootstrap Page</h1>
+    </div>
+
+    <div class="content-section">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 col-md-4 d-flex justify-content-center">
+                    <div class="icon-box">
+                        <img src="html.png" alt="HTML5">
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 d-flex justify-content-center">
+                    <div class="icon-box">
+                        <img src="css.png" alt="CSS5">
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 d-flex justify-content-center">
+                    <div class="icon-box">
+                        <img src="bootstrap.png" alt="Bootstrap">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
