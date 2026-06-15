@@ -1,0 +1,39 @@
+/* Exercise 7: Drag and Drop List Styling */
+
+.drag-drop-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 250px;
+}
+
+.drag-drop-item {
+  padding: 15px;
+  margin-bottom: 8px;
+  background-color: white;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  cursor: move;
+  font-size: 16px;
+  color: #333;
+  transition: all 0.2s ease;
+  user-select: none;
+}
+
+.drag-drop-item:hover {
+  background-color: #f9f9f9;
+  border-color: #999;
+}
+
+.drag-drop-item.dragging {
+  opacity: 0.5;
+  background-color: #e8e8e8;
+  border-color: #666;
+  transform: scale(0.95);
+}
+
+.drag-drop-item::before {
+  content: '● ';
+  margin-right: 10px;
+  color: #999;
+}

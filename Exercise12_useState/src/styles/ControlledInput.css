@@ -1,0 +1,22 @@
+/* Exercise 2: Controlled Input Field Styling */
+
+.text-input {
+  width: 300px;
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  font-family: inherit;
+}
+
+.text-input:focus {
+  outline: none;
+  border-color: #999;
+}
+
+.input-display {
+  font-size: 20px;
+  color: white;
+  margin-top: 20px;
+  text-align: center;
+}
