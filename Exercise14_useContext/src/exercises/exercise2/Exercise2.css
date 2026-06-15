@@ -1,0 +1,14 @@
+.exercise2-layout {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  background-color: #fff;
+  flex: 1;
+}
+
+@media (max-width: 768px) {
+  .exercise2-layout {
+    flex-direction: column;
+    height: auto;
+  }
+}
